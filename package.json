@@ -1,0 +1,37 @@
+{
+  "license": "MIT",
+  "name": "rLib",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kilfu0701",
+  "repository": {},
+  "version": "0.0.1",
+  "dependencies": {},
+  "scripts": {
+    "start": "./node_modules/gulp/bin/gulp.js dev",
+    "build": "npm install && ./node_modules/gulp/bin/gulp.js && ./node_modules/gulp/bin/gulp.js build"
+  },
+  "main": "gulpfile.js",
+  "id": "rLib-kilfu0701",
+  "description": "A Firefox AddOn Libraries that make more convenience on development.",
+  "devDependencies": {
+    "babelify": "^6.1.1",
+    "bower": "^1.4.1",
+    "event-stream": "^3.3.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-bower": "0.0.10",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.10.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-regex-replace": "^0.2.3",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-sync": "^0.1.4",
+    "gulp-uglify": "^1.2.0",
+    "pretty-data": "^0.40.0",
+    "stringify": "^3.1.0"
+  }
+}
