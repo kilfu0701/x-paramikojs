@@ -32,6 +32,7 @@ gulp.task('firefox-addon-sdk', function () {
     return gulp.src([
             'custom/firefox.js',
             'src/common.js',
+            'src/kryptos/kryptos.js',
             'src/kryptos/Cipher/AES.js',
             'src/kryptos/Cipher/Blowfish.js',
             'src/kryptos/Cipher/DES3.js',
