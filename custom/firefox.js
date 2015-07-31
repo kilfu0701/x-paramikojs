@@ -11,3 +11,5 @@ const { viewFor } = require("sdk/view/core");
 var window = viewFor(require("sdk/windows").browserWindows[0]);
 var navigator = window.navigator;
 var crypto = window.crypto;
+var setTimeout = window.setTimeout;
+var setInterval = window.setInterval;
